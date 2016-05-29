@@ -1,6 +1,6 @@
 # login.php2
 <?php
-  $con = mysqli_collect ("mysql8.000webhost.com", "a5676971_chay21", "music7EEE", "a5676971_rateAPP");
+  $con = mysqli_collect ("databas", "sql", "password", "user");
   
   $userame = $_POST("username");
   $password = $_POST("password");
